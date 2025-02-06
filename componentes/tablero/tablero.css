@@ -1,3 +1,32 @@
 .tablero{
-    background-color: black;
+    background-color: white;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-tablero {
+    height: 50rem;
+
+    display: grid;
+    grid-template-columns: repeat(8,13rem);
+    grid-template-rows: repeat(8,15rem);
+    gap: 1rem;
+}
+
+.carta {
+    border: 1px solid rgb(218, 218, 218);
+    border-radius: 3px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    font-weight: 600;
+    font-size: 7rem;
+
+    -webkit-box-shadow: 7px 10px 5px -5px rgba(196, 196, 196, 1);
+    -moz-box-shadow: 7px 10px 5px -5px rgba(196, 196, 196, 1);
+    box-shadow: 7px 10px 5px -5px rgba(196, 196, 196, 1);
 }
