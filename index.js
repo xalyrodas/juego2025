@@ -25,3 +25,13 @@ contenedor.appendChild(footer);
 footer.className="footer";
 
 DOM.appendChild(contenedor);
+
+let todaslascartasdelDOM=document.querySelectorAll('.carta');
+todaslascartasdelDOM.forEach(cadaCarta=>{
+
+cadaCarta.addEventListener("click",()=>{
+    cadaCarta.classList.add("marcado");
+});
+
+});
+

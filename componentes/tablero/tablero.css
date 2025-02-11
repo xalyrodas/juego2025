@@ -30,3 +30,10 @@
     -moz-box-shadow: 7px 10px 5px -5px rgba(196, 196, 196, 1);
     box-shadow: 7px 10px 5px -5px rgba(196, 196, 196, 1);
 }
+.carta:hover{
+    border: 1px solid red;
+    transition: 0.3s;
+}
+.marcado{
+    background-color: red;
+}
